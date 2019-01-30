@@ -3,7 +3,7 @@ require_relative '../parrot.rb' # Code your solution in this file
 
 describe '#Parrot' do
   it 'should output "Squawk!" to the terminal when called without any arguments' do
-    expect($stdout).to receive(:puts).with("Squawk!")
+def    expect($stdout).to receive(:puts).with("Squawk!")
     parrot
   end
 
